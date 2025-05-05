@@ -31,7 +31,6 @@ const about = {
 };
 
 const experience = {
-    icon: "/bagde.svg",
     title: "Web Developer",
     description: "Membangun aplikasi web yang responsif dan interaktif menggunakan HTML, CSS, JavaScript, PHP, dan Laravel.",
     items: [
@@ -55,7 +54,7 @@ const education = {
         },
         {
             institution: "SMA Negeri 2 Semarapura",
-            major: "Ilmu Pengetahuan Alam",
+            major: "Matematika & Ilmu Pengetahuan Alam",
             duration: "2019 - 2022",
         },
     ],
