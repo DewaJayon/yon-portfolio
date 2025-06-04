@@ -3,7 +3,8 @@
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { FaJs, FaPhp, FaLaravel } from "react-icons/fa";
+import { FaJs, FaPhp, FaLaravel, FaVuejs } from "react-icons/fa";
+import { SiInertia } from "react-icons/si";
 import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
 import { motion } from "framer-motion";
@@ -44,6 +45,29 @@ const projects = [
             {
                 name: "JavaScript",
                 icon: <FaJs />,
+            },
+        ],
+    },
+    {
+        title: "DaftarKu",
+        description: "DaftarKu adalah website pribadi untuk mencatat project saya.",
+        link: "https://daftar-ku.dewajayon.my.id/",
+        techStack: [
+            {
+                name: "Laravel",
+                icon: <FaLaravel />,
+            },
+            {
+                name: "PHP",
+                icon: <FaPhp />,
+            },
+            {
+                name: "Vue JS",
+                icon: <FaVuejs />,
+            },
+            {
+                name: "Inertia JS",
+                icon: <SiInertia />,
             },
         ],
     },
