@@ -20,17 +20,17 @@ describe('App', () => {
         expect(wrapper.get('#projects').get('h2').text()).toBe('Proyek terpilih');
         expect(wrapper.get('#about').get('h2').text()).toBe('Tentang saya');
         expect(wrapper.get('#contact').get('h2').text()).toBe('Hubungi saya');
-        expect(wrapper.findAll('[data-slot="card"]')).toHaveLength(4);
+        expect(wrapper.findAll('[data-slot="card"]')).toHaveLength(8);
     });
 
-    it('renders all project cards with a contact detail action', () => {
+    it('renders all project cards with their portfolio details', () => {
         const wrapper = mountApp();
         const projects = wrapper.get('#projects');
 
-        expect(projects.text()).toContain('Aplikasi E-Commerce');
-        expect(projects.text()).toContain('Dasbor Analitik');
-        expect(projects.text()).toContain('Sistem Manajemen');
-        expect(projects.findAll('a[href="#contact"]')).toHaveLength(3);
+        expect(projects.text()).toContain('Daftar Ku');
+        expect(projects.text()).toContain('E-Catalog Gajah Bali');
+        expect(projects.text()).toContain('Virtual Tour Desa Selat');
+        expect(projects.findAll('img')).toHaveLength(7);
     });
 
     it('connects navigation and call-to-action links to page sections', () => {
@@ -41,8 +41,8 @@ describe('App', () => {
         expect(links).toContain('#projects');
         expect(links).toContain('#about');
         expect(links).toContain('#contact');
-        expect(wrapper.get('a[href="mailto:hello@kreatif.dev"]').text()).toContain(
-            'hello@kreatif.dev',
+        expect(wrapper.get('a[href="mailto:dewajayon3@gmail.com"]').text()).toContain(
+            'dewajayon3@gmai.com',
         );
     });
 

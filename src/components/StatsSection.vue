@@ -1,12 +1,23 @@
 <script setup>
 import { motion } from 'motion-v';
+import { projects } from '@/data/projects';
 import { scrollReveal, staggeredReveal } from '@/lib/motion';
 
 const stats = [
-    { value: '15+', label: 'Proyek selesai' },
-    { value: '5+', label: 'Tahun pengalaman' },
-    { value: '20+', label: 'Klien puas' },
-    { value: '100k+', label: 'Baris kode', inverse: true },
+    { value: projects.length, label: 'Proyek terpilih' },
+    {
+        value: projects.filter((project) => project.category === 'Proyek Pribadi').length,
+        label: 'Proyek pribadi',
+    },
+    {
+        value: projects.filter((project) => project.category === 'SaaS Startup').length,
+        label: 'Startup SaaS',
+    },
+    {
+        value: projects.filter((project) => project.link).length,
+        label: 'Demo online',
+        inverse: true,
+    },
 ];
 </script>
 

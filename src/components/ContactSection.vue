@@ -22,9 +22,9 @@ import { scrollReveal } from '@/lib/motion';
                         <p class="label-caps text-muted-foreground">Email</p>
                         <a
                             class="mt-1 block font-display text-2xl uppercase leading-none text-foreground hover:text-primary md:text-3xl"
-                            href="mailto:hello@kreatif.dev"
+                            href="mailto:dewajayon3@gmail.com"
                         >
-                            hello@kreatif.dev
+                            dewajayon3@gmai.com
                         </a>
                     </div>
                 </div>
@@ -32,13 +32,13 @@ import { scrollReveal } from '@/lib/motion';
                     <MapPin class="mt-1 size-5 shrink-0 text-foreground" aria-hidden="true" />
                     <div>
                         <p class="label-caps text-muted-foreground">Lokasi</p>
-                        <p class="mt-1 text-base text-foreground">Jakarta, Indonesia</p>
+                        <p class="mt-1 text-base text-foreground">Bali, Indonesia</p>
                     </div>
                 </div>
             </CardContent>
             <CardFooter class="px-5 pb-6 md:px-7 md:pb-0 md:pl-0">
                 <Button as-child variant="brutal" size="lg" class="w-full md:w-auto">
-                    <a href="mailto:hello@kreatif.dev">
+                    <a href="mailto:dewajayon3@gmail.com">
                         Kirim pesan
                         <Send data-icon="inline-end" />
                     </a>

@@ -38,7 +38,7 @@ function closeMobileMenu() {
                 aria-label="Beranda portfolio"
             >
                 <Code2 class="size-5" aria-hidden="true" />
-                <span class="font-display text-3xl uppercase leading-none">Portfolio</span>
+                <span class="font-display text-3xl uppercase leading-none">Dewa Jayon</span>
             </a>
 
             <ul class="hidden items-center gap-7 md:flex">

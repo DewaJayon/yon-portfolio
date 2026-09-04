@@ -1,19 +1,20 @@
 <script setup>
-import { Palette, Zap } from '@lucide/vue';
+import { Layers, Server } from '@lucide/vue';
 import { motion } from 'motion-v';
 import { Separator } from '@/components/ui/separator';
 import { scrollReveal } from '@/lib/motion';
 
 const values = [
     {
-        title: 'Kinerja maksimal',
-        description: 'Mengoptimalkan setiap baris kode untuk kecepatan dan efisiensi.',
-        icon: Zap,
+        title: 'Backend andal',
+        description:
+            'Merancang API, basis data, dan logika bisnis yang aman serta mudah dikembangkan.',
+        icon: Server,
     },
     {
-        title: 'Desain fungsional',
-        description: 'Estetika yang melayani kegunaan dan aksesibilitas.',
-        icon: Palette,
+        title: 'Solusi end-to-end',
+        description: 'Menghubungkan frontend dan backend menjadi pengalaman aplikasi yang utuh.',
+        icon: Layers,
     },
 ];
 </script>
@@ -34,10 +35,10 @@ const values = [
                 <p
                     class="mt-5 max-w-xl text-sm leading-6 text-muted-foreground md:text-base md:leading-7"
                 >
-                    Saya adalah seorang pengembang kreatif yang bersemangat menciptakan aplikasi web
-                    berkinerja tinggi. Fokus saya adalah menggabungkan desain fungsional dengan
-                    rekayasa solid untuk menghasilkan pengalaman digital yang tidak hanya terlihat
-                    indah tetapi juga bekerja dengan sempurna.
+                    Saya adalah full-stack web developer yang membangun aplikasi dari antarmuka
+                    hingga layanan backend. Dengan Laravel dan Node.js sebagai fokus utama, saya
+                    merancang API, mengelola basis data, dan memastikan setiap fitur bekerja secara
+                    andal.
                 </p>
             </article>
             <article>

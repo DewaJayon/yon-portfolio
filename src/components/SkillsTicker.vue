@@ -1,7 +1,20 @@
 <script setup>
 import { Asterisk } from '@lucide/vue';
 
-const skills = ['React', 'Tailwind', 'Next.js', 'TypeScript', 'Figma', 'Node.js', 'GSAP'];
+const skills = [
+    'PHP',
+    'Tailwind',
+    'Laravel',
+    'JavaScript',
+    'Node.js',
+    'Vue.js',
+    'MySQL',
+    'Git',
+    'REST API',
+    'Docker',
+    'Linux',
+    'Inertia.js',
+];
 </script>
 
 <template>
